@@ -1,0 +1,74 @@
+.product-card {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 0 auto;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.31);
+  position: relative;
+  transition: transform 0.3s
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-infos {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.card-price {
+  font-size: 30px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 15px;
+  color: rgba(0,0,0,0.5);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.add-cart-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  margin: 12px 15px;
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(107, 9, 107);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.31);
+  transform: scale(1.02);
+  transition: transform 0.3s;
+}
+
+.product-card:hover .add-cart-button {
+  /* faca uma pequena animacao parecida com a ultima para este botao tambem */
+  display: flex;
+  animation: fadeIn 0.4s ease-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; transform: scale(0.95);}
+  100% {opacity: 1; transform: scale(1);}
+}
