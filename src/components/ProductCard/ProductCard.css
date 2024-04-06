@@ -47,7 +47,7 @@
   justify-content: center;
   border: none;
   border-radius: 50px;
-  background-color: rgb(107, 9, 107);
+  background-color: #9500ff;
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@
 .product-card:hover .add-cart-button {
   /* faca uma pequena animacao parecida com a ultima para este botao tambem */
   display: flex;
-  animation: fadeIn 0.4s ease-out;
+  animation: fadeIn 0.3s ease-out;
 }
 
 a {
