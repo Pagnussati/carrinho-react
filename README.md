@@ -8,6 +8,12 @@ Este projeto foi utilizado para praticar meus conhecimentos em React, e ele cons
 - **Adição e remoção:** É possível adicionar e remover produtos do carrinho.
 - **Listagem de Produtos:** Exibe uma lista de produtos obtidos da API do Mercado Livre.
 
+## Visitar o Projeto! 🌐
+
+O projeto está disponível na internet, para acessar basta clicar [aqui!](https://carrinho-react-ten.vercel.app/).
+
+O deploy da aplicação foi realizada por meio do [Vercel](https://vercel.com/).
+
 ## Tecnologias Utilizadas 🧰
 
 ![Javascript](ReadmeImages/javascript-svgrepo-com.svg)
@@ -19,9 +25,3 @@ Este projeto foi utilizado para praticar meus conhecimentos em React, e ele cons
 ![App Screenshot](ReadmeImages/Screenshot_1.png)
 
 ![App Screenshot](ReadmeImages/Screenshot_2.png)
-
-## Visitar o Projeto! 🌐
-
-O projeto está disponível na internet, para acessar basta clicar [aqui!](https://carrinho-react-ten.vercel.app/).
-
-O deploy da aplicação foi realizada por meio do [Vercel](https://vercel.com/).
