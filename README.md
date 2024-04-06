@@ -16,7 +16,7 @@ Este projeto foi utilizado para praticar meus conhecimentos em React, e ele cons
 
 ## Visitar o Projeto! 🌐
 
-O projeto está disponível na internet, para acessar basta clicar [aqui!](https://carrinho-react-ten.vercel.app/).
+O projeto está disponível na internet, para acessar basta [clicar aqui!](https://carrinho-react-ten.vercel.app/).
 
 O deploy da aplicação foi realizada por meio do [Vercel](https://vercel.com/).
 
